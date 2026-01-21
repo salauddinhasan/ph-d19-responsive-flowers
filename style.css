@@ -11,3 +11,7 @@ body {
     font-optical-sizing: auto;
     background-color:#f5f8ff;
 }
+
+#title {
+line-height: 1.2;
+}
