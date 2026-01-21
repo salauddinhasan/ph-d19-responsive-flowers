@@ -8,5 +8,6 @@
 
 body {
     font-family: "Noto Serif", serif;
-     font-optical-sizing: auto;
+    font-optical-sizing: auto;
+    background-color:#f5f8ff;
 }

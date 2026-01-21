@@ -16,8 +16,35 @@
     <!-- tailwind script  -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- style.css link -->
+     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1 class="text-2xl text-center p-4 text-green-400" >responsive flowers</h1>
+    <!-- header section -->
+    <header class="flex items-center justify-between max-w-6xl mx-auto px-4">
+
+        <!-- logo -->
+        <figure class="flex items-center flex-shrink-0">
+            <img src="assets/logo.png" alt="company logo" class="h-12 w-auto">
+        </figure>
+
+        <!-- nav -->
+        <nav class="flex items-center gap-x-5 text-xl font-medium text-[#252432]">
+
+            <!-- menu (desktop only) -->
+            <ul class="hidden sm:flex gap-x-4">
+                <li>Home</li>
+                <li>Shop</li>
+                <li>About Us</li>
+            </ul>
+
+            <!-- cart -->
+            <div class="flex items-center gap-x-1 mt-3 sm:mt-0  hover:text-purple-600 transition">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart ($56)</span>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
